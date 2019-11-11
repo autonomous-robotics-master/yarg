@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+  <name>yarg_control</name>
+  <version>0.0.1</version>
+  <description>The control package for YARG!</description>
+
+  <maintainer email="elisa.tosello@unipd.it">Elisa Tosello</maintainer>
+  <maintainer email="luca.tagliapietra@unipd.it">Luca Tagliapietra</maintainer>
+  <maintainer email="giorgio.nicola@phd.unipd.it">Giorgio Nicola</maintainer>
+
+  <author email="elisa.tosello@unipd.it">Elisa Tosello</author>
+  <author email="luca.tagliapietra@unipd.it">Luca Tagliapietra</author>
+  <author email="giorgio.nicola@phd.unipd.it">Giorgio Nicola</author>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <run_depend>roscpp</run_depend>
+  <build_depend>rospy</build_depend>
+  <run_depend>rospy</run_depend>
+
+  <build_depend>message_generation</build_depend>
+  <run_depend>message_runtime</run_depend>
+  
+</package>
