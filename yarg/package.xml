@@ -1,0 +1,24 @@
+<package>
+  <name>yarg</name>
+  <version>1.2.5</version>
+  <description>
+      Description, control, and utilities for YARG! (Yet Another Robotic Gripper!), the 3D printed Two Finger Gripper developed by the Intelligent and Autonomous Systems Lab (IAS-ab) of the University of Padova.
+  </description>
+
+  <maintainer email="elisa.tosello@unipd.it">Elisa Tosello</maintainer>
+  <maintainer email="luca.tagliapietra@unipd.it">Luca Tagliapietra</maintainer>
+  <maintainer email="giorgio.nicola@phd.unipd.it">Giorgio Nicola</maintainer>
+
+  <author email="elisa.tosello@unipd.it">Elisa Tosello</author>
+  <author email="luca.tagliapietra@unipd.it">Luca Tagliapietra</author>
+  <author email="giorgio.nicola@phd.unipd.it">Giorgio Nicola</author>
+
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>yarg_control</run_depend>
+
+
+</package>
